@@ -5,7 +5,7 @@ Machine learning model to predict winners of first round of the 2022 nba playoff
 
 os_helper.py - untitly module to move files around, see contents or zipped files, unzip bulk files.
 
-API - API and directions to updating data or downloading data from the source.
+API - API and directions to updating data or downloading data from the three sources. <https://github.com/shufinskiy/nba_apiv3/tree/master>
 
 
 ## Data Source
