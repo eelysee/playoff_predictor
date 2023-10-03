@@ -1,0 +1,23 @@
+
+
+MVP:
+
+model will be given all the average scores for the games played for teh season. then given teh stats from the last 5 games.
+
+each indivdual player will be given an average of all that they have scored all season and the average of what they have scored the last 5 games
+
+The model will say that either home one or away run.
+
+compress all rows into one column
+make sure the games are represented chronologically
+
+
+Nice to have
+create unique id for every nba player so that I can incorporate contributions into machine learnign model.
+
+There shot details could be broken dowm and their rolling stats coudl be combined.
+
+
+Monte carlo simulation to predict the ourcome of each series in a seven game first round series.
+
+model will be given all the combined stats of the games play the past season. Thn given teh stats from the last 5 games.
