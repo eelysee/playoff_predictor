@@ -7,6 +7,8 @@ os_helper.py - untitly module to move files around, see contents or zipped files
 
 API - API and directions to updating data or downloading data from the three sources. <https://github.com/shufinskiy/nba_apiv3/tree/master>
 
+csv - file that contains all the relevant dataset
+
 
 ## Data Source
 This dataset comprises NBA play-by-play data and shot details spanning from the 1996/1997 to 2022/23 seasons, with the latest update on 2023-07-11 incorporating playoff data for all seasons. The data is sourced from three platforms: 
