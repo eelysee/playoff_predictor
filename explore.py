@@ -2,6 +2,10 @@ import pandas as pd
 import os
 
 def import_nba():
+    '''
+    retrieves data from .csv files.
+    assigns them to variables
+    '''
     nbastats = pd.read_csv('csv/nbastats_2022.csv')
     nbapo = pd.read_csv('csv/datanba_po_2022.csv')
     nbadata = pd.read_csv('csv/datanba_2022.csv')
@@ -11,3 +15,4 @@ def import_nba():
     shotdetail_po = pd.read_csv('csv/shotdetail_po_2022.csv')
     
     return nbastats, nbapo, nbadata, nbastats_po, pbpstats, shotdetail, shotdetail_po
+

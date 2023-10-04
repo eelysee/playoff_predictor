@@ -18,9 +18,51 @@ This dataset comprises NBA play-by-play data and shot details spanning from the 
 
 Each of the datasets have a differnt start season and minor inconsistencies toughout the datasets. For this project we will only be using 2021-2022 , and 2022,2023 seanons and the first round of the playoff.
 
-
+Stats not available or missing values were updated by api.
 
 ### nbastats
+
+
+| Field                      | Description                                          |
+|----------------------------|------------------------------------------------------|
+| **GAME_ID**                | Game ID                                              |
+| **EVENTNUM**               | Sequence number of the event                         |
+| **EVENTMSGTYPE**           | Type of event (e.g., shot, rebound, foul)            |
+| **EVENTMSGACTIONTYPE**     | Subtype or specific action of the event              |
+| **PERIOD**                 | Quarter number                                       |
+| **WCTIMESTRING**           | Wall-clock time when the event occurred              |
+| **PCTIMESTRING**           | Time remaining in the quarter                        |
+| **HOMEDESCRIPTION**        | Description of the home team action                  |
+| **NEUTRALDESCRIPTION**     | Description of a neutral action (e.g., start of period) |
+| **VISITORDESCRIPTION**     | Description of the visitor team action               |
+| **SCORE**                  | Current game score at the time of the event          |
+| **SCOREMARGIN**            | Score margin at the time of the event                |
+| **PERSON1TYPE**            | Type identifier for the first person involved        |
+| **PLAYER1_ID**             | ID of the player who performed the main action       |
+| **PLAYER1_NAME**           | Name of the player who performed the main action     |
+| **PLAYER1_TEAM_ID**        | Team ID of the player who performed the main action  |
+| **PLAYER1_TEAM_CITY**      | Team city of the player who performed the main action|
+| **PLAYER1_TEAM_NICKNAME**  | Team nickname of the player who performed the main action |
+| **PLAYER1_TEAM_ABBREVIATION**| Team abbreviation of the player who performed the main action|
+| **PERSON2TYPE**            | Type identifier for the second person involved       |
+| **PLAYER2_ID**             | ID of the player who performed a side action         |
+| **PLAYER2_NAME**           | Name of the player who performed a side action       |
+| **PLAYER2_TEAM_ID**        | Team ID of the player who performed a side action    |
+| **PLAYER2_TEAM_CITY**      | Team city of the player who performed a side action  |
+| **PLAYER2_TEAM_NICKNAME**  | Team nickname of the player who performed a side action |
+| **PLAYER2_TEAM_ABBREVIATION**| Team abbreviation of the player who performed a side action|
+| **PERSON3TYPE**            | Type identifier for the third person involved        |
+| **PLAYER3_ID**             | ID of the player who performed a second side action  |
+| **PLAYER3_NAME**           | Name of the player who performed a second side action|
+| **PLAYER3_TEAM_ID**        | Team ID of the player who performed a second side action|
+| **PLAYER3_TEAM_CITY**      | Team city of the player who performed a second side action|
+| **PLAYER3_TEAM_NICKNAME**  | Team nickname of the player who performed a second side action|
+| **PLAYER3_TEAM_ABBREVIATION**| Team abbreviation of the player who performed a second side action|
+| **VIDEO_AVAILABLE_FLAG**   | Indicates if a video of the event is available       |
+
+
+
+### nbadata
 
 | Field           | Description                                             |
 |-----------------|---------------------------------------------------------|
