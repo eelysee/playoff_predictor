@@ -1,0 +1,36 @@
+
+
+**Project Summary: Predicting NBA Playoff Winners Using Machine Learning**
+
+**Objective:**  
+Predict the outcome of NBA playoff games using team performance metrics from the regular season (2022-2023).
+
+**Data Source:**  
+Statistics for NBA teams from the regular season of 2022-2023.
+
+**Key Features:**
+1. **Recent Performance Metrics:** Investigated the significance of a team's performance in the most recent games (`home_last5`, `vlast`, `hlast`) as predictors for upcoming playoff games.
+2. **Statistical Analysis:** Conducted exploratory data analysis (EDA) to understand the distributions, correlations, and potential predictors from the dataset.
+3. **Feature Engineering:** Developed features based on the win-loss records from the past games to encapsulate a team's recent momentum.
+
+**Machine Learning Workflow:**
+1. **Data Preprocessing:** Handled missing values, outliers, and transformed data into a format suitable for machine learning.
+2. **Model Selection:** Chose the Random Forest Classifier due to its ability to handle large datasets with higher dimensionality and its robustness against overfitting.
+3. **Model Training & Testing:** Utilized 80% of the data for training and validated the model on the remaining 20%.
+4. **Results:** Achieved an accuracy score of 54% on the test data, indicating a strong potential for the model to predict playoff game outcomes based on regular season performance metrics.
+
+**Insights & Conclusions:**
+- The performance of a team in their recent games was found to be a significant predictor for their success in the playoffs.
+- The model can be further improved by incorporating player-specific metrics, injury reports, and more nuanced statistics like player efficiency ratings.
+
+---
+
+** Resume:**
+
+**Machine Learning Project: NBA Playoff Predictions**  
+- Developed a machine learning model to predict NBA playoff winners using regular-season statistics from the 2022-2023 season.
+- Conducted EDA to identify key performance metrics and engineered features encapsulating team momentum.
+- Trained and tested a Random Forest Classifier, achieving an accuracy of 54% on test data.
+- Identified the significance of recent game performance as a strong predictor for playoff success.
+
+

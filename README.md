@@ -1,6 +1,12 @@
 # playoff_predictor
 Machine learning model to predict winners of first round of the 2022 nba playoffs.
 
+**Project Summary: Predicting NBA Playoff Winners Using Machine Learning**
+
+**Objective:**  
+Predict the outcome of NBA playoff games using team performance metrics from the regular season (2022-2023).
+
+
 ## File explanation
 
 os_helper.py - untitly module to move files around, see contents or zipped files, unzip bulk files.
@@ -19,6 +25,8 @@ This dataset comprises NBA play-by-play data and shot details spanning from the 
 Each of the datasets have a differnt start season and minor inconsistencies toughout the datasets. For this project we will only be using 2021-2022 , and 2022,2023 seanons and the first round of the playoff.
 
 Stats not available or missing values were updated by api.
+
+
 
 ### nbastats
 
@@ -172,4 +180,48 @@ Stats not available or missing values were updated by api.
 
 
 
+| Team Name                 | team_id       |
+|---------------------------|---------------|
+| Atlanta Hawks            | **1610612737** |
+| Boston Celtics           | **1610612738** |
+| Brooklyn Nets            | **1610612751** |
+| Charlotte Hornets        | **1610612766** |
+| Chicago Bulls            | **1610612741** |
+| Cleveland Cavaliers      | **1610612739** |
+| Dallas Mavericks         | **1610612742** |
+| Denver Nuggets           | **1610612743** |
+| Detroit Pistons          | **1610612765** |
+| Golden State Warriors    | **1610612744** |
+| Houston Rockets          | **1610612745** |
+| Indiana Pacers           | **1610612754** |
+| LA Clippers              | **1610612746** |
+| Los Angeles Lakers       | **1610612747** |
+| Memphis Grizzlies        | **1610612763** |
+| Miami Heat               | **1610612748** |
+| Milwaukee Bucks          | **1610612749** |
+| Minnesota Timberwolves   | **1610612750** |
+| New Orleans Pelicans     | **1610612740** |
+| New York Knicks          | **1610612752** |
+| Oklahoma City Thunder    | **1610612760** |
+| Orlando Magic            | **1610612753** |
+| Philadelphia 76ers       | **1610612755** |
+| Phoenix Suns             | **1610612756** |
+| Portland Trail Blazers   | **1610612757** |
+| Sacramento Kings         | **1610612758** |
+| San Antonio Spurs        | **1610612759** |
+| Toronto Raptors          | **1610612761** |
+| Utah Jazz                | **1610612762** |
+| Washington Wizards       | **1610612764** |
+
+
+**Key Features:**
+1. **Recent Performance Metrics:** Investigated the significance of a team's performance in the most recent games (`home_last5`, `vlast`, `hlast`) as predictors for upcoming playoff games.
+2. **Statistical Analysis:** Conducted exploratory data analysis (EDA) to understand the distributions, correlations, and potential predictors from the dataset.
+3. **Feature Engineering:** Developed features based on the win-loss records from the past games to encapsulate a team's recent momentum.
+
+**Machine Learning Workflow:**
+1. **Data Preprocessing:** Handled missing values, outliers, and transformed data into a format suitable for machine learning.
+2. **Model Selection:** Chose the Random Forest Classifier due to its ability to handle large datasets with higher dimensionality and its robustness against overfitting.
+3. **Model Training & Testing:** Utilized 80% of the data for training and validated the model on the remaining 20%.
+4. **Results:** Achieved an accuracy score of 54% on the test data, indicating a strong potential for the model to predict playoff game outcomes based on regular season performance metrics.
 
